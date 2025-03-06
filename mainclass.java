@@ -1,7 +1,12 @@
-import java.until.Scanner ;
+
 public class mainclass {
     public static void main(String[] args) {
-        System.out.println("hello world");
-        Scanner 
+      CAR car1 = new CAR();
+
+      car1.setname("laguna");
+      car1.setModel(1994);
+    
+      System.out.println(car1.getname());
+      System.out.println(car1.getModel());
     }
 }
